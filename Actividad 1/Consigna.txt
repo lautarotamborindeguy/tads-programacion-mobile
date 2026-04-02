@@ -1,0 +1,14 @@
+Atividade 1
+Crie uma aplicação com uma tela de login com os seguintes parâmetros:
+Uma imagem em um CircleAvatar (centralizado horizontalmente);
+Um TextField para nome de usuário
+Um TextField para senha; 
+O TextField para senha deve ter um botão de visibilidade, permitindo alterar entre os modos de exibição/não exibição da senha que está sendo informada;
+Um ElevatedButton para submeter as informações;
+Se nome de usuário e senha estiverem corretos, abrir uma nova tela (o teste de usuário e senha será feito com um IF/ELSE, com usuário e senha configurados de maneira estática no código);
+A nova tela deve ter "Bem-vindo 'nome de usuário';
+Se a senha e/ou usuário estiverem em branco ou incorretos um SnackBar (ou um AlertDialog) deve ser exibido;
+A nova tela, além de exibir as boas-vindas, deve ter TextFields para 'cadastro' das informações de um usuário como: nome, endereço, curso, cidade, país, etc.
+Inserir um botão para 'salvar' as informações. Ao clicar, os dados digitados devem aparecer em um AlertDialog;
+Inserir um botão para voltar para a tela de login.
+O Aplicativo deve fazer uso dos parâmetros e Widgets vistos em aula, como: Text, Column, Row, Container, Widget Stateful, Widget Stateless, Refatoração de código, SizedBox, ElevatedButton, Scaffold, AppBar, parâmetros de alinhamento, TextField.

@@ -29,7 +29,7 @@ class Databasehelper {
 
   Future _onCreate(Database db, int version) async {
     await db.execute(
-      'CREATE IF NOT EXISTS TABLE estudiantes (id INTEGER PRIMARY KEY AUTOINCREMENT,nombre TEXT NOT NULL,matricula TEXT NOT NULL)'
+      'CREATE TABLE IF NOT EXISTS estudiantes (id INTEGER PRIMARY KEY AUTOINCREMENT,nombre TEXT NOT NULL,matricula TEXT NOT NULL)'
     );
   }
 }

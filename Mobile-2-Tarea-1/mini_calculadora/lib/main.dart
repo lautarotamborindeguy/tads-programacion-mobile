@@ -114,8 +114,8 @@ class _MyHomePageState extends State<MyHomePage> {
               children: [
                 _buildActionButton('Restar 1', Colors.red, () => _applyOperation('subtract')),
                 _buildActionButton('Sumar 1', Colors.green, () => _applyOperation('add')),
-                _buildActionButton('Multiplicar ×2', Colors.blue, () => _applyOperation('multiply')),
-                _buildActionButton('Dividir ÷2', Colors.orange, () => _applyOperation('divide')),
+                _buildActionButton('Multiplicar x2', Colors.blue, () => _applyOperation('multiply')),
+                _buildActionButton('Dividir /2', Colors.orange, () => _applyOperation('divide')),
               ],
             ),
           ],
